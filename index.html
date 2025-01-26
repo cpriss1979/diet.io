@@ -30,6 +30,72 @@ footer {
     z-index: 1000; /* Place it above other elements */
 }
 
+
+
+
+
+
+
+/* Media Queries for Responsive Design */
+
+/* For tablets and smaller devices */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+        text-align: center;
+    }
+
+    header img {
+        max-width: 40px;
+    }
+
+    nav {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    nav a {
+        margin: 0.5rem 0;
+        font-size: 1rem;
+    }
+
+    .white-box, ul {
+        padding: 10px;
+        max-width: 100%;
+    }
+
+    ul li {
+        font-size: 1rem;
+    }
+}
+
+/* For smaller phones */
+@media (max-width: 480px) {
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav a {
+        font-size: 0.9rem;
+        padding: 0.3rem;
+    }
+
+    button {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    footer {
+        font-size: 0.8rem;
+        padding: 5px;
+    }
+}
+
+      
+
     </style>
   </header>
 

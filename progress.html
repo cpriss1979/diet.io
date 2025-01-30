@@ -36,16 +36,15 @@ footer {
     </header>
 
     <nav>
-        <a href="index.html">Home</a>
-        <a href="foods.html">Low-Calorie Foods</a>
-        <a href="exercises.html">Exercises</a>
-                    <a href="calculator.html">Calorie-Calculator</a>
-
-        <a href="progress.html" class="active">Personal Progress</a>
-
-
-    </nav>
-
+    <select id="nav-dropdown" onchange="location = this.value;">
+        <option value="index.html">Home</option>
+        <option value="foods.html">Low-Calorie Foods</option>
+        <option value="exercises.html">Exercises</option>
+        <option value="calculator.html">Calorie Calculator</option>
+        <option value="progress.html">Personal Progress</option>
+    </select>
+</nav>
+    
     <main>
         <div class="white-box">
             <h2>Track Your Weight</h2>

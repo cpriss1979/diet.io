@@ -69,8 +69,8 @@ nav a.active {
 }
 
 nav a:hover {
-    color: gold;
-    border-bottom: 1px solid gold;
+    color: cyan;
+    border-bottom: 1px solid cyan;
 }
 
 /* Main Content */
@@ -157,8 +157,12 @@ img {
 }
 
 img.small {
-    max-width: 600px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
+
 
 /* Form Styles */
 .container {
@@ -217,7 +221,7 @@ form button:hover {
 /* Media Queries for Responsive Design */
 
 /* For tablets and smaller devices */
-@media (max-width: 768px) {
+@media (max-width: 480px) {
     header {
         flex-direction: column;
         align-items: center;
@@ -225,6 +229,14 @@ form button:hover {
         text-align: center;
     }
 
+
+
+    @media (max-width: 480px) {
+        img.small {
+            max-width: 80%; /* Adjusts image size on small screens */
+        }
+    }
+    
     header img {
         max-width: 40px;
     }

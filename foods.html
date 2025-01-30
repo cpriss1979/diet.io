@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Low-Calorie Foods</title>
+    <title>Exercises</title>
     <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
@@ -15,164 +16,138 @@
     </header>
 
     <nav>
-    <select id="nav-dropdown" onchange="location = this.value;">
-        <option value="index.html">Home</option>
-        <option value="foods.html">Low-Calorie Foods</option>
-        <option value="exercises.html">Exercises</option>
-        <option value="calculator.html">Calorie Calculator</option>
-        <option value="progress.html">Personal Progress</option>
-    </select>
-</nav>
+        <a href="index.html">Home</a>
+        <a href="foods.html">Low-Calorie Foods</a>
+        <a href="exercises.html" class="active">Exercises</a>
+                    <a href="calculator.html">Calorie-Calculator</a>
+
+        <a href="progress.html">Personal Progress</a>
+
+    </nav>
 
     <main>
-        <section>
-            <h2>Low-Calorie Foods</h2>
+        <ul>
+            <li style="border-bottom: 1px solid #ccc; padding: 10px; border-radius: 8px; margin-bottom: 10px;">
+                <b>Jumping Jacks</b>
+                <p>How to: Stand with your feet together and hands at your sides. Jump up and spread your legs while
+                    raising
+                    your arms above your head. Then, jump back to the starting position.</p>
+                <p>Benefits: Great for warming up, improving cardiovascular health, and building endurance.</p>
+            </li>
 
-            <ul>
-                <h3>Fruits</h3>
-                <li><strong>Bananas</strong> (105 calories)</li>
-                <li><strong>Grapes</strong> (62 calories per cup)</li>
-                <li><strong>Cherries</strong> (97 calories per cup)</li>
-                <li><strong>Pineapple</strong> (82 calories per cup)</li>
-                <li><strong>Mango</strong> (99 calories per cup)</li>
-                <li><strong>Kiwi</strong> (42 calories per fruit)</li>
-                <li><strong>Papaya</strong> (55 calories per cup)</li>
-                <li><strong>Figs</strong> (47 calories per fig)</li>
-                <li><strong>Pomegranate seeds</strong> (72 calories per 1/2 cup)</li>
-                <li><strong>Avocado (1/4 medium)</strong> (80 calories)</li>
-            </ul>
-            <ul>
-                <h3>Vegetables</h3>
-                <li><strong>Sweet potatoes (baked)</strong> (112 calories per medium potato)</li>
-                <li><strong>Peas</strong> (62 calories per 1/2 cup)</li>
-                <li><strong>Carrots (cooked)</strong> (35 calories per 1/2 cup)</li>
-                <li><strong>Butternut squash (roasted)</strong> (82 calories per cup)</li>
-                <li><strong>Corn (cooked)</strong> (77 calories per ear)</li>
-                <li><strong>Artichokes (boiled)</strong> (60 calories per medium artichoke)</li>
-                <li><strong>Potatoes (boiled)</strong> (87 calories per medium potato)</li>
-                <li><strong>Beets (cooked)</strong> (37 calories per 1/2 cup)</li>
-                <li><strong>Pumpkin (cooked)</strong> (49 calories per cup)</li>
-                <li><strong>Edamame (cooked)</strong> (120 calories per 1/2 cup)</li>
-            </ul>
-            <ul>
+            <li style="border-bottom: 1px solid #ccc; padding: 10px; border-radius: 8px; margin-bottom: 10px;">
+                <b>Bodyweight Squats</b>
+                <p>How to: Stand with feet shoulder-width apart, back straight, and hands either in front of you or on
+                    your
+                    hips. Bend your knees and push your hips back as if sitting down into a chair, then stand back up.
+                </p>
+                <p>Benefits: Strengthens your legs, glutes, and core.</p>
 
-                <h3>Dairy & Substitutes</h3>
-                <li><strong>Whole milk</strong> (149 calories per cup)</li>
-                <li><strong>Cheddar cheese</strong> (113 calories per ounce)</li>
-                <li><strong>Mozzarella (low-fat)</strong> (72 calories per ounce)</li>
-                <li><strong>Greek yogurt (full-fat, plain)</strong> (100 calories per 5.3 oz container)</li>
-                <li><strong>Butter</strong> (102 calories per tablespoon)</li>
-                <li><strong>Cream cheese</strong> (99 calories per tablespoon)</li>
-                <li><strong>Parmesan cheese</strong> (22 calories per tablespoon)</li>
-                <li><strong>Soy milk (plain, unsweetened)</strong> (80 calories per cup)</li>
-                <li><strong>Almond butter</strong> (98 calories per tablespoon)</li>
-                <li><strong>Coconut milk</strong> (45 calories per 1/4 cup)</li>
-            </ul>
-            <ul>
+            </li>
+            
+            <li style="border-bottom: 1px solid #ccc; padding: 10px; border-radius: 8px; margin-bottom: 10px;">
+                <b>Push-ups</b>
+                <p>How to: Start in a plank position with your hands slightly wider than shoulder-width apart. Lower
+                    your body
+                    down until your chest almost touches the ground, then push back up.</p>
+                <p>Benefits: Builds upper body strength, focusing on the chest, shoulders, and triceps.</p>
+            </li>
 
-                <h3>Proteins</h3>
-                <li><strong>Eggs (whole, large)</strong> (70 calories)</li>
-                <li><strong>Salmon (grilled)</strong> (206 calories per 3 oz)</li>
-                <li><strong>Tuna (canned in oil)</strong> (168 calories per 3 oz)</li>
-                <li><strong>Beef (lean, cooked)</strong> (184 calories per 3 oz)</li>
-                <li><strong>Pork tenderloin</strong> (122 calories per 3 oz)</li>
-                <li><strong>Chicken thighs (skinless)</strong> (174 calories per 3 oz)</li>
-                <li><strong>Sardines (canned in oil)</strong> (177 calories per 3 oz)</li>
-                <li><strong>Peanut butter</strong> (190 calories per 2 tbsp)</li>
-                <li><strong>Lentils (cooked)</strong> (115 calories per 1/2 cup)</li>
-                <li><strong>Black beans (cooked)</strong> (114 calories per 1/2 cup)</li>
-                    <li><strong>Chicken breast (skinless, cooked)</strong> (140 calories per 3 oz)</li>
-                    <li><strong>Turkey breast (skinless, cooked)</strong> (135 calories per 3 oz)</li>
-                    <li><strong>Cod (baked or broiled)</strong> (89 calories per 3 oz)</li>
-                    <li><strong>Tilapia (cooked)</strong> (112 calories per 3 oz)</li>
-                    <li><strong>Shrimp (boiled or steamed)</strong> (84 calories per 3 oz)</li>
-                    <li><strong>Crab (cooked)</strong> (82 calories per 3 oz)</li>
-                    <li><strong>Scallops (cooked)</strong> (95 calories per 3 oz)</li>
-                </ul>
+            <li style="border-bottom: 1px solid #ccc; padding: 10px; border-radius: 8px; margin-bottom: 10px;">
+                <b>Plank</b>
+                <p>How to: Get into a forearm plank position, resting on your forearms and toes. Keep your back straight
+                    and
+                    your core engaged. Hold this position.</p>
+                <p>Benefits: Strengthens your core, shoulders, and lower back.</p>
+            </li>
 
-            </ul>
-            <ul>
+            <li style="border-bottom: 1px solid #ccc; padding: 10px; border-radius: 8px; margin-bottom: 10px;">
+                <b>Mountain Climbers</b>
+                <p>How to: Start in a plank position. Quickly alternate bringing your knees towards your chest while
+                    keeping
+                    your body in a straight line.</p>
+                <p>Benefits: A full-body workout that improves cardio, core strength, and agility.</p>
+            </li>
 
-                <h3>Grains & Starches</h3>
-                <li><strong>Brown rice (cooked)</strong> (218 calories per cup)</li>
-                <li><strong>Quinoa (cooked)</strong> (222 calories per cup)</li>
-                <li><strong>Oats (cooked)</strong> (154 calories per cup)</li>
-                <li><strong>Whole wheat bread</strong> (80 calories per slice)</li>
-                <li><strong>Couscous (cooked)</strong> (176 calories per cup)</li>
-                <li><strong>Barley (cooked)</strong> (193 calories per cup)</li>
-                <li><strong>Polenta (cooked)</strong> (77 calories per 1/2 cup)</li>
-                <li><strong>Whole wheat pasta</strong> (174 calories per cup)</li>
-                <li><strong>Wild rice</strong> (166 calories per cup)</li>
-                <li><strong>Sweet corn tortillas</strong> (58 calories per tortilla)</li>
-            </ul>
+            <li style="border-bottom: 1px solid #ccc; padding: 10px; border-radius: 8px; margin-bottom: 10px;">
+                <b>Lunges</b>
+                <p>How to: Stand with feet together, then take a big step forward. Lower your body until both knees are
+                    bent at
+                    a 90-degree angle. Push back up to standing and repeat on the other leg.</p>
+                <p>Benefits: Strengthens your legs, glutes, and improves balance.</p>
+            </li>
 
-<ul>
-                <h3>Snacks</h3>
-    <li><strong>Air-popped popcorn (3 cups)</strong> (~90 calories)</li>
-    <li><strong>Hard-boiled egg</strong> (~70 calories)</li>
-    <li><strong>Baby carrots with 2 tbsp hummus</strong> (~100 calories)</li>
-    <li><strong>Cucumber slices with 1 oz light cream cheese</strong> (~60 calories)</li>
-    <li><strong>Cherry tomatoes with a sprinkle of feta cheese</strong> (~80 calories)</li>
-    <li><strong>1 oz turkey jerky</strong> (~80 calories)</li>
-    <li><strong>Cottage cheese (1/2 cup low-fat)</strong> (~90 calories)</li>
-    <li><strong>Edamame (1/2 cup)</strong> (~120 calories)</li>
-    <li><strong>Seaweed snacks (1 pack)</strong> (~30 calories)</li>
-    <li><strong>1 string cheese (low-fat)</strong> (~80 calories)</li>
-    <li><strong>Greek yogurt (1/2 cup, nonfat, plain) with berries</strong> (~100 calories)</li>
-    <li><strong>1 medium apple with 1 tsp peanut butter</strong> (~100 calories)</li>
-    <li><strong>1 banana with a sprinkle of cinnamon</strong> (~105 calories)</li>
-    <li><strong>1 small handful of grapes (about 1 cup)</strong> (~62 calories)</li>
-    <li><strong>1 rice cake with 1 tsp almond butter</strong> (~90 calories)</li>
-    <li><strong>1 cup of watermelon cubes</strong> (~46 calories)</li>
-    <li><strong>Dark chocolate (1 square, ~70% cocoa)</strong> (~50 calories)</li>
-    <li><strong>1 orange or clementine</strong> (~60 calories)</li>
-    <li><strong>Homemade fruit popsicle (made with blended fruit and water)</strong> (~50 calories)</li>
-    <li><strong>1/4 cup mixed berries with a dollop of whipped cream</strong> (~70 calories)</li>
-</ul>
+            <li style="border-bottom: 1px solid #ccc; padding: 10px; border-radius: 8px; margin-bottom: 10px;">
+                <b>Burpees</b>
+                <p>How to: Stand with feet shoulder-width apart. Lower into a squat, place your hands on the ground,
+                    jump your
+                    feet back into a plank position, then quickly bring them forward and jump up.</p>
+                <p>Benefits: Combines cardio and strength for a full-body workout.</p>
+            </li>
 
+            <li style="border-bottom: 1px solid #ccc; padding: 10px; border-radius: 8px; margin-bottom: 10px;">
+                <b>Crunches</b>
+                <p>How to: Lie on your back with knees bent and feet flat. Place your hands behind your head. Lift your
+                    shoulders off the ground while engaging your core, then slowly return to the starting position.</p>
+                <p>Benefits: Strengthens your abdominal muscles.</p>
+            </li>
 
-            </ul>
+            <li style="border-bottom: 1px solid #ccc; padding: 10px; border-radius: 8px; margin-bottom: 10px;">
+                <b>Leg Raises</b>
+                <p>How to: Lie flat on your back with legs straight. Keep your lower back pressed into the ground, then
+                    slowly
+                    lift your legs up towards the ceiling, engaging your lower abs, and slowly lower back down.</p>
+                <p>Benefits: Strengthens lower abdominal muscles and hip flexors.</p>
+            </li>
 
-            <h2>Negative-Calorie Foods</h2>
-            <ul>
+            <li style="border-bottom: 1px solid #ccc; padding: 10px; border-radius: 8px; margin-bottom: 10px;">
+                <b>Superman</b>
+                <p>How to: Lie face down on the floor with arms extended straight in front of you. Lift both your arms,
+                    chest,
+                    and legs off the ground, squeezing your lower back and glutes. Hold, then slowly lower.</p>
+                <p>Benefits: Strengthens the lower back and glutes.</p>
+            </li>
 
-                <h3>Vegetables</h3>
-                <li><strong>Celery</strong> (10 calories per stalk)</li>
-                <li><strong>Cucumber</strong> (16 calories per cup)</li>
-                <li><strong>Lettuce (iceberg, romaine, etc.)</strong> (5 calories per cup)</li>
-                <li><strong>Zucchini</strong> (20 calories per cup)</li>
-                <li><strong>Broccoli</strong> (55 calories per cup)</li>
-                <li><strong>Cauliflower</strong> (25 calories per cup)</li>
-                <li><strong>Spinach</strong> (7 calories per cup)</li>
-                <li><strong>Kale</strong> (33 calories per cup)</li>
-                <li><strong>Cabbage</strong> (22 calories per cup)</li>
-                <li><strong>Asparagus</strong> (27 calories per cup)</li>
-                <li><strong>Green beans</strong> (31 calories per cup)</li>
-                <li><strong>Radishes</strong> (19 calories per cup)</li>
-                <li><strong>Bell peppers (any color)</strong> (24 calories per cup)</li>
-                <li><strong>Carrots</strong> (52 calories per cup)</li>
-                <li><strong>Tomatoes</strong> (22 calories per medium tomato)</li>
-                <li><strong>Mushrooms</strong> (15 calories per cup)</li>
-            </ul>
-            <ul>
+            <li style="border-bottom: 1px solid #ccc; padding: 10px; border-radius: 8px; margin-bottom: 10px;">
+                <b>Bicycle Crunches</b>
+                <p>How to: Lie on your back with your hands behind your head and legs lifted off the ground. Bring one
+                    elbow
+                    towards the opposite knee while extending the other leg. Switch sides.</p>
+                <p>Benefits: Works your obliques and strengthens your abs.</p>
+            </li>
 
-                <h3>Fruits</h3>
-                <li><strong>Watermelon</strong> (46 calories per cup)</li>
-                <li><strong>Grapefruit</strong> (52 calories per half)</li>
-                <li><strong>Oranges</strong> (62 calories per medium orange)</li>
-                <li><strong>Lemons and limes</strong> (17 calories per fruit)</li>
-                <li><strong>Strawberries</strong> (49 calories per cup)</li>
-                <li><strong>Blueberries</strong> (84 calories per cup)</li>
-                <li><strong>Blackberries</strong> (62 calories per cup)</li>
-                <li><strong>Raspberries</strong> (64 calories per cup)</li>
-                <li><strong>Apples (with skin)</strong> (95 calories per medium apple)</li>
-                <li><strong>Peaches</strong> (59 calories per medium peach)</li>
-                <li><strong>Plums</strong> (30 calories per medium plum)</li>
-                <li><strong>Pineapple</strong> (82 calories per cup)</li>
-                <li><strong>Cantaloupe</strong> (53 calories per cup)</li>
-                <li><strong>Papaya</strong> (55 calories per cup)</li>
-            </ul>
-        </section>
+            <li style="border-bottom: 1px solid #ccc; padding: 10px; border-radius: 8px; margin-bottom: 10px;">
+                <b>High Knees</b>
+                <p>How to: Stand in place and quickly alternate lifting your knees up to your chest while swinging your
+                    arms.
+                    Increase the speed for more intensity.</p>
+                <p>Benefits: Improves cardio and leg strength.</p>
+            </li>
+
+            <li style="border-bottom: 1px solid #ccc; padding: 10px; border-radius: 8px; margin-bottom: 10px;">
+                <b>Side Plank</b>
+                <p>How to: Lie on one side with legs stacked, prop yourself up on your forearm, and lift your hips off
+                    the
+                    ground while keeping your body in a straight line. Hold the position.</p>
+                <p>Benefits: Strengthens your obliques and core stability.</p>
+            </li>
+
+            <li style="border-bottom: 1px solid #ccc; padding: 10px; border-radius: 8px; margin-bottom: 10px;">
+                <b>Glute Bridges</b>
+                <p>How to: Lie on your back with knees bent and feet flat on the ground. Push your hips up towards the
+                    ceiling
+                    by engaging your glutes and core, then slowly lower back down.</p>
+                <p>Benefits: Strengthens your glutes and core.</p>
+            </li>
+
+            <li style="border-bottom: 1px solid #ccc; padding: 10px; border-radius: 8px; margin-bottom: 10px;">
+                <b>Wall Sit</b>
+                <p>How to: Stand with your back against a wall and feet about 2 feet away from the wall. Slide down
+                    until your
+                    thighs are parallel to the ground, keeping your back flat, and hold the position.</p>
+                <p>Benefits: Strengthens your legs and builds endurance.</p>
+            </li>
+        </ul>
 
 
     </main>

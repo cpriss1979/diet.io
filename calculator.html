@@ -86,6 +86,7 @@
             <option value="" selected>Wellness Menu</option> <!-- This will be replaced dynamically -->
             <option value="index.html">Home</option>
             <option value="foods.html">Low-Calorie Foods</option>
+            <option value="foods0.html">Negative-Calorie Foods</option>
             <option value="exercises.html">Exercises</option>
             <option value="calculator.html">Calorie Calculator</option>
             <option value="progress.html">Personal Progress</option>
@@ -133,7 +134,7 @@
     </div>
 
     <script>
-    document.getElementById('calorieForm').addEventListener('submit', function (e) {
+        document.getElementById('calorieForm').addEventListener('submit', function (e) {
             e.preventDefault();
 
             const weight = parseFloat(document.getElementById('weight').value);

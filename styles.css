@@ -45,6 +45,7 @@ h2 {
     font-size: x-large;
     color: rgb(61, 207, 207);
 }
+
 h5 {
     font-size: xx-large;
     color: cyan;
@@ -274,10 +275,6 @@ form button:hover {
     }
 }
 
-
-
-
-
 /* Dropdown Navigation */
 nav {
     background-color: blueviolet;
@@ -307,4 +304,28 @@ select {
 
 select:hover {
     background-color: #f0f0f0;
+}
+
+/* Ensure the body takes up the full viewport height */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Pushes the content up and keeps the footer at the bottom */
+.container {
+    flex: 1;
+}
+
+/* Make footer stick to the bottom */
+footer {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }

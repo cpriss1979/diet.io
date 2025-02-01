@@ -277,7 +277,7 @@ form button:hover {
 
 /* Dropdown Navigation */
 nav {
-    background-color: blueviolet;
+    background: radial-gradient(circle,  rgb(0, 170, 170), grey, rgb(100, 100, 200), rgb(50, 48, 139));
     display: flex;
     justify-content: center;
     align-items: center;

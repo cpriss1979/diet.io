@@ -5,6 +5,7 @@ zz{
   "description": "Your ultimate guide to fitness, wellness, and weight loss.",
   "start_url": "/index.html",
   "display": "standalone",
+  "display_override": ["window-controls-overlay"],
   "background_color": "#ffffff",
   "theme_color": "#322F8B",
   "orientation": "portrait-primary",

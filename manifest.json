@@ -1,4 +1,5 @@
 {
+  "id": "/",
   "name": "From Flab to Fab",
   "short_name": "FlabFab",
   "description": "Your ultimate guide to fitness, wellness, and weight loss.",
@@ -6,6 +7,8 @@
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#322F8B",
+  "orientation": "portrait-primary",
+  "launch_handler": {},
   "icons": [
     {
       "src": "/icons/icon-192x192.png",
@@ -15,6 +18,18 @@
     {
       "src": "/icons/icon-512x512.png",
       "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/screenshot1.png",
+      "sizes": "1080x1920",
+      "type": "image/png"
+    },
+    {
+      "src": "/screenshots/screenshot2.png",
+      "sizes": "1080x1920",
       "type": "image/png"
     }
   ]

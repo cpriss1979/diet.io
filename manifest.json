@@ -2,7 +2,7 @@
   "id": "/",
   "name": "From Flab to Fab",
   "short_name": "FlabFab",
-  "description": "Your ultimate guide to fitness, wellness, and weight loss: including a calorie calculator and prersonal progress tracker.",
+  "description": "Your all-in-one guide to fitness, wellness, and weight loss—featuring a calorie calculator, personal progress tracker, low-calorie foods, negative-calorie foods, and effective exercises.",
   "start_url": "/index.html",
   "display": "standalone",
   "display_override": ["window-controls-overlay"],

@@ -51,16 +51,18 @@
         }
 
         /* Footer */
+       
         footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
+    width: 100%; /* Ensure it spans the full width of the viewport */
+    background-color: #333; /* Dark background color for the footer */
+    color: white; /* White text for contrast */
+    text-align: center; /* Center-align the text */
+    padding: 10px 0; /* Add spacing within the footer */
+    position: fixed; /* Fix the footer to the bottom of the viewport */
+    bottom: 0; /* Position it at the very bottom */
+    left: 0; /* Ensure it starts at the left edge */
+    z-index: 1000; /* Place it above other elements */
+}
 
         /* Responsive Design */
         @media (max-width: 768px) {

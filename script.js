@@ -1,7 +1,6 @@
- var path = window.location.pathname;
-  if (path !== "/") {
-    window.location.replace("/");
-  }
+ if (!window.location.pathname.startsWith("/fittofab.io")) {
+    window.location.replace("/fittofab.io/");
+}
 
 document.addEventListener("DOMContentLoaded", () => {
     // Handle the weight tracking logic

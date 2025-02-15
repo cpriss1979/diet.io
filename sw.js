@@ -6,8 +6,18 @@ self.addEventListener("install", (event) => {
                 "/index.html",
                 "/styles.css",
                 "/app.js",
+                "/.nojekyll",
+                "/404.html",
+                "/calculator.html",
+                "/exercises.html",
+                "/foods.html",
+                "/foods0.html",
+                "/manifest.json",
+                "/progress.html",
+                "/script.js",
+                "/yoga.png",
                 "ZibbyDiamonds.png",
-                "ZibbyDiamonds.png"
+                "ZibbyDiamonds0.png"
             ]);
         })
     );

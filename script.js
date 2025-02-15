@@ -1,3 +1,8 @@
+ var path = window.location.pathname;
+  if (path !== "/") {
+    window.location.replace("/");
+  }
+
 document.addEventListener("DOMContentLoaded", () => {
     // Handle the weight tracking logic
     const form = document.getElementById("progress-form");

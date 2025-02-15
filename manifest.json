@@ -3,7 +3,8 @@
   "name": "From Flab to Fab",
   "short_name": "FlabToFab",
   "description": "Your all-in-one guide to fitness, wellness, and weight loss—featuring a calorie calculator, personal progress tracker, low-calorie foods, negative-calorie foods, and effective exercises.",
-  "start_url": "/index.html",
+  "start_url": "/fittofab.io/index.html", 
+  "scope": "/fittofab.io/", 
   "display": "standalone",
   "display_override": ["window-controls-overlay"],
   "background_color": "#ffffff",
@@ -12,24 +13,24 @@
   "launch_handler": {},
   "icons": [
     {
-      "src": "ZibbyDiamonds.png",
+      "src": "/fittofab.io/ZibbyDiamonds.png", 
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "ZibbyDiamonds.png",
+      "src": "/fittofab.io/ZibbyDiamonds.png",
       "sizes": "512x512",
       "type": "image/png"
     }
   ],
   "screenshots": [
     {
-      "src": "/screenshots/screenshot1.png",
+      "src": "/fittofab.io/screenshots/screenshot1.png",
       "sizes": "1080x1920",
       "type": "image/png"
     },
     {
-      "src": "/screenshots/screenshot2.png",
+      "src": "/fittofab.io/screenshots/screenshot2.png",
       "sizes": "1080x1920",
       "type": "image/png"
     }

@@ -1,4 +1,4 @@
- if (!window.location.pathname.startsWith("/fittofab.io")) {
+if (!window.location.pathname.startsWith("/fittofab.io")) {
     window.location.replace("/fittofab.io/");
 }
 
@@ -81,14 +81,11 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     console.log("Current Page:", currentPage); // Debugging log to check detected page
-});
 
-// 🟢 Register the Service Worker
-if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/sw.js')
+    // 🟢 Register the Service Worker (Placed Inside DOMContentLoaded)
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/fittofab.io/sw.js')
             .then(reg => console.log("Service Worker Registered!", reg))
             .catch(err => console.log("Service Worker Registration Failed!", err));
-    });
-}
-
+    }
+});

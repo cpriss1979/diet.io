@@ -2,22 +2,24 @@ self.addEventListener("install", (event) => {
     event.waitUntil(
         caches.open("flab-to-fab-cache").then((cache) => {
             return cache.addAll([
-                "/fittofab.io/",
-                "/fittofab.io/index.html",
-                "/fittofab.io/styles.css",
-                "/fittofab.io/app.js",
-                "/fittofab.io/.nojekyll",
-                "/fittofab.io/404.html",
-                "/fittofab.io/calculator.html",
-                "/fittofab.io/exercises.html",
-                "/fittofab.io/foods.html",
-                "/fittofab.io/foods0.html",
-                "/fittofab.io/manifest.json",
-                "/fittofab.io/progress.html",
-                "/fittofab.io/script.js",
-                "/fittofab.io/yoga.png",
-                "/fittofab.io/ZibbyDiamonds.png",
-                "/fittofab.io/ZibbyDiamonds0.png"
+    
+  "/",
+  "/index.html",
+  "/styles.css",
+  "/app.js",
+  "/.nojekyll",
+  "/404.html",
+  "/calculator.html",
+  "/exercises.html",
+  "/foods.html",
+  "/foods0.html",
+  "/manifest.json",
+  "/progress.html",
+  "/script.js",
+  "/yoga.png",
+  "/ZibbyDiamonds.png",
+  "/ZibbyDiamonds0.png"
+                
             ]);
         })
     );

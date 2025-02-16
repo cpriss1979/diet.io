@@ -19,7 +19,7 @@ body {
 /* Header Styles */
 header {
     background-color: rgb(50, 48, 139);
-    color: black; /* testing: white is default color */
+    color: white; /* testing: white is default color */
     padding: 1rem 2rem;
     display: flex;
     align-items: center;

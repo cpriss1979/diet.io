@@ -10,7 +10,6 @@
   "background_color": "#ffffff",
   "theme_color": "#322F8B",
   "orientation": "portrait-primary",
-  "launch_handler": {},
   "icons": [
     {
       "src": "./ZibbyDiamonds.png",
